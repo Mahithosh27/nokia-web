@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+
+.homebody{
+    display: flex;
+    text-align: center;
+    padding-top: 10%;
+    flex-direction: column;
+}
+
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-family: 'Archivo';
+    color: rgb(18, 18, 95);
+    padding-top: 20px;
+}
+
+.flex-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    column-gap: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 50vh;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 1px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.card-pic{
+    width: 20vw;
+    height: 30vh;
+}
+
+.card-option{
+    font-family: 'Asap';
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-option{
+        font-size: xx-small;
+    }
+}
+
+#file-input{
+    display: none;
+}
+
+.frame{
+    display: none;
+    height: 60vh;
+}
+
+.close-icon{
+    background-color: transparent;
+    color: red;
+    padding: 5px;
+}
+
+.close-icon:hover{
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+

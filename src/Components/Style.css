@@ -1,0 +1,176 @@
+.loginbody{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox{
+    box-shadow: 2px 2px 5px 2px rgba(73, 132, 163, 0.656);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.credential{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cred{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.credinput{
+    padding: 10px;
+    font-size: medium;
+
+}
+
+.loginbutton{
+    background-color: rgb(12, 158, 243);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 100px;
+    margin: auto;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loginbutton:hover{
+    background-color: rgba(105, 194, 246, 0.851);
+}
+
+.invcred{
+    color: red;
+    font-size: medium;
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    background-color: rgba(251, 207, 207, 0.792);
+    border: solid 1px red;
+    text-transform: uppercase;
+    display: none;
+}
+
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.header-login{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(78, 187, 246);
+    padding: 10px;
+}
+
+.header-container{
+    background-attachment: fixed;
+    scroll-behavior: unset;
+    position: fixed;
+    min-width: 100vw;
+}
+
+.header{
+    padding: 20px;
+    background-color: rgb(78, 187, 246);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-dropdown{
+    padding: 5px;
+}
+
+.menu-dropdown:hover .menu-unfold{
+    display: none;
+}
+
+.menu-dropdown:hover .menu-fold{
+    display: flex;
+}
+
+.header-logo{
+    width: 200px;
+    padding: 10px;
+}
+
+.menu-fold , .menu-unfold{
+    width: 30px;
+    height: 30px;
+}
+
+.menu-fold{ 
+    display: none  
+}
+
+.menu-drop-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large  ;
+}
+
+.menu-drop-head:hover{
+    font-weight: bold;
+}
+
+#dropmenu{
+    position: absolute;
+    display: block;
+    width: 20%;
+    right: 5px;
+    background-color: rgb(78, 187, 246);
+    padding: 5px;
+    display: none;
+}
+
+.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    display: block;
+    padding: 10px;
+    border-top: solid 1px white;
+}
+
+.menu:hover{
+    background-color: rgb(127, 214, 255);
+    cursor: pointer;
+}
+
+.menu-dropdown:hover #dropmenu{
+    display: block;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.Nokia-Logo{
+    width: 20%;
+}
+
+.Nokia-Header{
+    background-color: rgb(78, 187, 246);
+    padding: 15px;
+    position: fixed;
+    background-attachment: fixed;
+}

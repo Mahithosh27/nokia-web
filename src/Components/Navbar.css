@@ -1,0 +1,116 @@
+.header-container{
+    background-attachment: fixed;
+    scroll-behavior: unset;
+    position: fixed;
+    min-width: 100vw;
+    background-color: rgb(12, 77, 243) ;
+}
+
+.header{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-dropdown{
+    padding: 5px;
+}
+
+.menu-dropdown:hover .menu-unfold{
+    display: none;
+}
+
+.menu-dropdown:hover .menu-fold{
+    display: flex;
+}
+
+.header-logo{
+    width: 200px;
+    padding: 10px;
+}
+
+.menu-fold , .menu-unfold{
+    width: 30px;
+    height: 30px;
+}
+
+.menu-fold{ 
+    display: none  
+}
+
+.menu-drop-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large  ;
+}
+
+.menu-drop-head:hover{
+    font-weight: bold;
+}
+
+#dropmenu{
+    position: absolute;
+    display: block;
+    width: 20%;
+    right: 5px;
+    background-color: rgb(78, 187, 246);
+    padding: 5px;
+    display: none;
+}
+
+.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    display: block;
+    padding: 10px;
+    border-top: solid 1px white;
+}
+
+.menu:hover{
+    background-color: rgb(127, 214, 255);
+    cursor: pointer;
+}
+
+.menu-dropdown:hover #dropmenu{
+    display: block;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.searchbar{
+  
+    width: 350px;
+    height:  30px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+.search-icon{
+    padding-left: 2%;
+    padding-top: 1%;
+    width: 7%;
+    height:7% ;
+}
+.search-button{
+    background-color: rgb(78, 187, 246);;
+    border-radius: 20px;
+   width: 23%;
+
+  
+
+}

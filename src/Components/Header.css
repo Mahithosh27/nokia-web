@@ -1,0 +1,10 @@
+.Nokia-Logo{
+    width: 20%;
+}
+
+.Nokia-Header{
+    background-color: rgb(78, 187, 246);
+    padding: 15px;
+    position: fixed;
+    background-attachment: fixed;
+}
